@@ -3,10 +3,10 @@ import { HardhatUserConfig } from "hardhat/config";
 import "@matterlabs/hardhat-zksync-deploy";
 import "@matterlabs/hardhat-zksync-solc";
 // Plugins
+import "hardhat-deploy";
 import "hardhat-contract-sizer";
 import "hardhat-abi-exporter";
 import "@typechain/hardhat";
-import "hardhat-deploy";
 
 // load env file
 import dotenv from "dotenv";
