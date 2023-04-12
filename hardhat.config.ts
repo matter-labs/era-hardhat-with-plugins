@@ -30,6 +30,7 @@ const zkSyncTestnet =
         ethNetwork: "goerli",
         zksync: true,
         accounts: [
+          // account PKs loaded from .env file
           process.env.DEPLOY_PRIVATE_KEY,
           process.env.USER_PRIVATE_KEY,
         ],
