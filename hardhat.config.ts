@@ -8,6 +8,8 @@ import "hardhat-contract-sizer";
 import "hardhat-abi-exporter";
 import "@typechain/hardhat";
 
+import "hardhat-gas-reporter";
+
 // load env file
 import dotenv from "dotenv";
 dotenv.config();
@@ -21,8 +23,8 @@ const zkSyncTestnet =
         zksync: true,
         accounts: [
           // rich wallets from local-node https://github.com/matter-labs/local-setup/blob/main/rich-wallets.json
-          "0x7726827....",
-          "0xac1e735....",
+          "0x77268...",
+          "0xac1e7...",
         ],
       }
     : {
