@@ -1,4 +1,4 @@
-# zkSync Hardhat plugins tester
+# zkSync Hardhat project with plugins
 
 ## hardhat-deploy
 
